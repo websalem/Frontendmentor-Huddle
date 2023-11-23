@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 1rem;
+    margin:auto;
+    display: flex;
+}
+.btn{
+    appearance: none;
+    border:none;
+    padding:1rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    font-weight: 700;
+    font-family: $bodyFont;
+    cursor: pointer;
+}
